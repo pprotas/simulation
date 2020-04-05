@@ -6,17 +6,24 @@ using UnityEngine;
 
 public class SimulationController : MonoBehaviour
 {
-    // Start is called before the first frame update
     Client Client { get; set; }
+    State State { get; set; }
+
     void Start()
     {
-        Client = new Client(new Uri("ws://trafic.azurewebsites.net/simulation"));
-        Client.Listen();
+        Client = gameObject.GetComponent<Client>();
+        State = gameObject.GetComponentInChildren<State>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Client.ControllerData != null)
+        {
+            State.SetAllLights(Client.ControllerData);
+        }
+        if (State.IsUpdated)
+        {
+            Client.Send(State);
+        }
     }
 }
