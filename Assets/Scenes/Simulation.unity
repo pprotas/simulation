@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &6002531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &8558718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -360,7 +360,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8896424}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 0.17000008, z: -0.52}
+  m_LocalPosition: {x: -0.02, y: 0.303, z: -0.542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1420024820}
@@ -379,6 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1241639624}
+  CheckLight: 1
 --- !u!1 &22791674
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,8 +433,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 72127dfd2b4ece84fafa67f6eee23e99, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &39452634
@@ -487,8 +487,7 @@ MonoBehaviour:
   id: A2
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: d857dc8da4a0e2b4088a55b525d92cc8, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &43599365
@@ -521,6 +520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 991401936}
+  CheckLight: 0
 --- !u!4 &43599367
 Transform:
   m_ObjectHideFlags: 0
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &70453165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &79675044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &94454903
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -900,6 +900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &100008188
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1450545507}
+  CheckLight: 0
 --- !u!1 &101041460
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,8 +998,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &123248268
@@ -1044,6 +1045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 96777777}
+  CheckLight: 0
 --- !u!1 &140050215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,6 +1076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1438706716}
+  CheckLight: 0
 --- !u!4 &140050217
 Transform:
   m_ObjectHideFlags: 0
@@ -1118,6 +1121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 43599366}
+  CheckLight: 1
 --- !u!4 &140186901
 Transform:
   m_ObjectHideFlags: 0
@@ -1157,7 +1161,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146490928}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.39, y: 0.72, z: -12.8}
+  m_LocalPosition: {x: 8.44, y: 0.862, z: -12.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 743599638}
@@ -1176,6 +1180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1772944520}
+  CheckLight: 0
 --- !u!1 &196811789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,6 +1211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1746856051}
+  CheckLight: 1
 --- !u!4 &196811791
 Transform:
   m_ObjectHideFlags: 0
@@ -1264,6 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 2050406077}
+  CheckLight: 0
 --- !u!1 &269288299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,6 +1315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 619245278}
+  CheckLight: 0
 --- !u!1 &276603734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,7 +1341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276603734}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.77, y: 0.765, z: -7.23}
+  m_LocalPosition: {x: 10.77, y: 0.99, z: -7.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22791675}
@@ -1352,6 +1360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1776589981}
+  CheckLight: 0
 --- !u!1 &277670243
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,6 +1405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 706060081}
+  CheckLight: 0
 --- !u!1 &296101824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,7 +1431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296101824}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.33, y: 0.64, z: -6.55}
+  m_LocalPosition: {x: -37.33, y: 1.22, z: -6.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2107259699}
@@ -1440,6 +1450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1977741928}
+  CheckLight: 0
 --- !u!1 &321174520
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,6 +1495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1608482377}
+  CheckLight: 0
 --- !u!1 &359835657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,6 +1526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 196811790}
+  CheckLight: 0
 --- !u!4 &359835659
 Transform:
   m_ObjectHideFlags: 0
@@ -1553,7 +1566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368846205}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.34, y: 0.17000008, z: -13.09}
+  m_LocalPosition: {x: -22.34, y: 0.36, z: -13.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1420024820}
@@ -1572,6 +1585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1077821552}
+  CheckLight: 0
 --- !u!1 &387763311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,8 +1641,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 5a4f86d32435a4c4ca96a487a3a32b8a, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &396582156
@@ -1661,6 +1674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1433018622}
+  CheckLight: 0
 --- !u!4 &396582158
 Transform:
   m_ObjectHideFlags: 0
@@ -1721,7 +1735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &406822655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1782,6 +1796,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406822652}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &437902641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 437902642}
+  - component: {fileID: 437902645}
+  - component: {fileID: 437902644}
+  - component: {fileID: 437902643}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &437902642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437902641}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.53000003, y: -0.4787, z: 1.3491}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.21411}
+  m_Children: []
+  m_Father: {fileID: 1688565940}
+  m_RootOrder: 353
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &437902643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437902641}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &437902644
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437902641}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 145feddecb5e79e48807ca0685c39ac2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &437902645
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437902641}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &453376846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,6 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 140186900}
+  CheckLight: 0
 --- !u!4 &453376848
 Transform:
   m_ObjectHideFlags: 0
@@ -1851,7 +1959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460566807}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.54, y: 0.17000008, z: -12.44}
+  m_LocalPosition: {x: -2.54, y: 0.5, z: -12.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1420024820}
@@ -1870,6 +1978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 368846207}
+  CheckLight: 0
 --- !u!1 &481237609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +2023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &516106234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,6 +2068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &519398464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &519398467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2109,6 +2220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1383288714}
+  CheckLight: 1
 --- !u!1 &573644011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,7 +2267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &573644014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2246,6 +2358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 2046165173}
+  CheckLight: 0
 --- !u!4 &596031324
 Transform:
   m_ObjectHideFlags: 0
@@ -2314,8 +2427,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &619245277
@@ -2348,6 +2460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 269288301}
+  CheckLight: 0
 --- !u!4 &619245279
 Transform:
   m_ObjectHideFlags: 0
@@ -2413,8 +2526,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: d857dc8da4a0e2b4088a55b525d92cc8, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &668660658
@@ -2461,6 +2573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 757557243}
+  CheckLight: 0
 --- !u!1 &683328420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,7 +2620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &683328423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2593,7 +2706,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694726376}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.52, y: 0.72, z: -9.04}
+  m_LocalPosition: {x: 0.79, y: 1.033, z: -9.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101041461}
@@ -2612,6 +2725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 763208354}
+  CheckLight: 1
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 237853212074955924, guid: e7d7c5c101600cf48ae038e36b8eede3,
@@ -2662,6 +2776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1230491506}
+  CheckLight: 1
 --- !u!1 &743599637
 GameObject:
   m_ObjectHideFlags: 0
@@ -2715,8 +2830,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
 --- !u!1001 &754972725
@@ -2828,7 +2942,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757557241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.31, y: 0.67, z: -5.33}
+  m_LocalPosition: {x: 0.31, y: 0.867, z: -5.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2107259699}
@@ -2847,6 +2961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 296101826}
+  CheckLight: 1
 --- !u!1 &762520023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +3006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &763208352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,7 +3032,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763208352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.03, y: 0.867, z: -7.05}
+  m_LocalPosition: {x: -3.74, y: 1.06, z: -7.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101041461}
@@ -2935,6 +3051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1781521878}
+  CheckLight: 0
 --- !u!1 &784984265
 GameObject:
   m_ObjectHideFlags: 0
@@ -2960,7 +3077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784984265}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06, y: 0.17000008, z: -0.23}
+  m_LocalPosition: {x: 0.06, y: 0.365, z: -0.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387763312}
@@ -2979,6 +3096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1923177109}
+  CheckLight: 1
 --- !u!1 &793086364
 GameObject:
   m_ObjectHideFlags: 0
@@ -3004,7 +3122,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793086364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16, y: 0.17000008, z: -0.01}
+  m_LocalPosition: {x: 0.16, y: 0.432, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2062251402}
@@ -3023,6 +3141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1241469292}
+  CheckLight: 1
 --- !u!1 &835001441
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,6 +3172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 909022016}
+  CheckLight: 0
 --- !u!4 &835001443
 Transform:
   m_ObjectHideFlags: 0
@@ -3061,7 +3181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 835001441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.52, y: 0.17000008, z: -15.06}
+  m_LocalPosition: {x: 3.52, y: 0.38, z: -15.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387763312}
@@ -3111,6 +3231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1889420224}
+  CheckLight: 0
 --- !u!1 &856016193
 GameObject:
   m_ObjectHideFlags: 0
@@ -3155,6 +3276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 203369776}
+  CheckLight: 1
 --- !u!1 &907712513
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,6 +3321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1524307718}
+  CheckLight: 0
 --- !u!1 &909022015
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,6 +3352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 988089455}
+  CheckLight: 0
 --- !u!4 &909022017
 Transform:
   m_ObjectHideFlags: 0
@@ -3237,7 +3361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909022015}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.62, y: 0.17000008, z: -16.51}
+  m_LocalPosition: {x: 7.62, y: 0.51, z: -16.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387763312}
@@ -3287,6 +3411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 694726378}
+  CheckLight: 0
 --- !u!1 &988089454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,6 +3442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1928639808}
+  CheckLight: 0
 --- !u!4 &988089456
 Transform:
   m_ObjectHideFlags: 0
@@ -3361,6 +3487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1426256513}
+  CheckLight: 0
 --- !u!4 &991401937
 Transform:
   m_ObjectHideFlags: 0
@@ -3405,6 +3532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1559633330}
+  CheckLight: 0
 --- !u!4 &992202453
 Transform:
   m_ObjectHideFlags: 0
@@ -3463,6 +3591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1007170409
 GameObject:
   m_ObjectHideFlags: 0
@@ -3517,8 +3646,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 80492071631ffe442bdaacf7b2e4a9f3, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &1007588995
@@ -3567,7 +3695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1007588998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3653,7 +3781,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048831214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.17000008, z: -0.22}
+  m_LocalPosition: {x: -0, y: 0.299, z: -0.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2119231887}
@@ -3672,6 +3800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1518601172}
+  CheckLight: 1
 --- !u!1 &1077821550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3716,6 +3845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1112473622
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,6 +3890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1215782830}
+  CheckLight: 0
 --- !u!1 &1117908991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3790,6 +3921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1810559848}
+  CheckLight: 1
 --- !u!4 &1117908993
 Transform:
   m_ObjectHideFlags: 0
@@ -3889,7 +4021,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159963373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.43, y: 0.17000008, z: 14.7}
+  m_LocalPosition: {x: -0.43, y: 0.95, z: 14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2119231887}
@@ -3908,6 +4040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1048831216}
+  CheckLight: 0
 --- !u!1 &1167539784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3952,6 +4085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 2078345778}
+  CheckLight: 1
 --- !u!1 &1215782828
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,6 +4130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1305914458}
+  CheckLight: 1
 --- !u!1 &1222330730
 GameObject:
   m_ObjectHideFlags: 0
@@ -4021,7 +4156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222330730}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.11, y: 0.82, z: -9.08}
+  m_LocalPosition: {x: -16.11, y: 1.43, z: -9.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22791675}
@@ -4040,6 +4175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1806771276}
+  CheckLight: 0
 --- !u!1 &1230491504
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,7 +4201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230491504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.42, y: 0.64, z: -10.46}
+  m_LocalPosition: {x: 6.42, y: 0.911, z: -10.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 743599638}
@@ -4084,6 +4220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 146490930}
+  CheckLight: 0
 --- !u!1 &1241469290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,6 +4265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1996196014}
+  CheckLight: 0
 --- !u!1 &1241639622
 GameObject:
   m_ObjectHideFlags: 0
@@ -4153,7 +4291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241639622}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.4, y: 0.17000008, z: -8.76}
+  m_LocalPosition: {x: -0.4, y: 0.52, z: -8.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1420024820}
@@ -4172,6 +4310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 460566809}
+  CheckLight: 0
 --- !u!1 &1269524805
 GameObject:
   m_ObjectHideFlags: 0
@@ -4218,7 +4357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1269524808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4325,7 +4464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1297109600
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4430,6 +4569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 619245278}
+  CheckLight: 0
 --- !u!1 &1315241688
 GameObject:
   m_ObjectHideFlags: 0
@@ -4474,6 +4614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1167539786}
+  CheckLight: 0
 --- !u!1 &1317683059
 GameObject:
   m_ObjectHideFlags: 0
@@ -4520,7 +4661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1317683062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4611,6 +4752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 784984267}
+  CheckLight: 0
 --- !u!4 &1319518176
 Transform:
   m_ObjectHideFlags: 0
@@ -4619,7 +4761,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319518174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.29, y: 0.17000008, z: 16.42}
+  m_LocalPosition: {x: -0.29, y: 0.61, z: 16.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387763312}
@@ -4669,6 +4811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1915181869}
+  CheckLight: 0
 --- !u!1 &1408835293
 GameObject:
   m_ObjectHideFlags: 0
@@ -4721,8 +4864,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &1420024819
@@ -4778,8 +4920,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 72127dfd2b4ece84fafa67f6eee23e99, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &1426256512
@@ -4812,6 +4953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 123248270}
+  CheckLight: 0
 --- !u!4 &1426256514
 Transform:
   m_ObjectHideFlags: 0
@@ -4870,6 +5012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1438706715
 GameObject:
   m_ObjectHideFlags: 0
@@ -4900,6 +5043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 596031323}
+  CheckLight: 0
 --- !u!4 &1438706717
 Transform:
   m_ObjectHideFlags: 0
@@ -4958,6 +5102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1450545505
 GameObject:
   m_ObjectHideFlags: 0
@@ -4983,7 +5128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450545505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.45, y: 0.7, z: -17.22}
+  m_LocalPosition: {x: -11.45, y: 1.12, z: -17.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2055379792}
@@ -5002,6 +5147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1461072446}
+  CheckLight: 0
 --- !u!1 &1461072444
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,7 +5173,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461072444}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.92, y: 0.91, z: -39.13}
+  m_LocalPosition: {x: -10.92, y: 0.915, z: -39.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2055379792}
@@ -5046,6 +5192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 516106236}
+  CheckLight: 0
 --- !u!1 &1492410225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5097,8 +5244,7 @@ MonoBehaviour:
   id: A3
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &1518601170
@@ -5145,6 +5291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1442272699}
+  CheckLight: 0
 --- !u!1 &1524307716
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,6 +5336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 100008190}
+  CheckLight: 1
 --- !u!1 &1559633329
 GameObject:
   m_ObjectHideFlags: 0
@@ -5219,6 +5367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 2129858391}
+  CheckLight: 1
 --- !u!4 &1559633331
 Transform:
   m_ObjectHideFlags: 0
@@ -5283,6 +5432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1608482375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5327,6 +5477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 2077956882}
+  CheckLight: 0
 --- !u!1 &1627350729
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +5508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!4 &1627350731
 Transform:
   m_ObjectHideFlags: 0
@@ -5365,7 +5517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627350729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.27, y: 0.17000008, z: -8.5}
+  m_LocalPosition: {x: 0.27, y: 0.245, z: -8.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387763312}
@@ -5415,6 +5567,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 856016195}
+  CheckLight: 0
+--- !u!4 &1688565940 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 73059c932e7948d4e8d7121577294702,
+    type: 3}
+  m_PrefabInstance: {fileID: 754972725}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1746856049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5459,6 +5618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 481237611}
+  CheckLight: 0
 --- !u!1 &1772944518
 GameObject:
   m_ObjectHideFlags: 0
@@ -5484,7 +5644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772944518}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.97, y: 0.23, z: -36.56}
+  m_LocalPosition: {x: 9.16, y: 0.23, z: -36.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 743599638}
@@ -5503,6 +5663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 997631149}
+  CheckLight: 0
 --- !u!1 &1776589979
 GameObject:
   m_ObjectHideFlags: 0
@@ -5547,6 +5708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1949684237}
+  CheckLight: 0
 --- !u!1 &1781521876
 GameObject:
   m_ObjectHideFlags: 0
@@ -5572,7 +5734,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781521876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.73, y: 0.31, z: 19}
+  m_LocalPosition: {x: -4.73, y: 0.99, z: 19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101041461}
@@ -5591,6 +5753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1819498283}
+  CheckLight: 0
 --- !u!1 &1806771274
 GameObject:
   m_ObjectHideFlags: 0
@@ -5616,7 +5779,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806771274}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.13, y: 0.78, z: -8.6}
+  m_LocalPosition: {x: -1.13, y: 0.96, z: -8.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22791675}
@@ -5635,6 +5798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 276603736}
+  CheckLight: 1
 --- !u!1 &1810559846
 GameObject:
   m_ObjectHideFlags: 0
@@ -5679,6 +5843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1590845177}
+  CheckLight: 0
 --- !u!1 &1812601689
 GameObject:
   m_ObjectHideFlags: 0
@@ -5709,6 +5874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1117908992}
+  CheckLight: 0
 --- !u!4 &1812601691
 Transform:
   m_ObjectHideFlags: 0
@@ -5748,7 +5914,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814253383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.43, y: 0.17000008, z: 14.7}
+  m_LocalPosition: {x: -0.43, y: 0.65, z: 14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1420024820}
@@ -5767,6 +5933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 8896426}
+  CheckLight: 0
 --- !u!1 &1814898931
 GameObject:
   m_ObjectHideFlags: 0
@@ -5824,8 +5991,7 @@ MonoBehaviour:
   id: A2
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 5a4f86d32435a4c4ca96a487a3a32b8a, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &1819498281
@@ -5853,7 +6019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819498281}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.96, y: 0.45, z: 19}
+  m_LocalPosition: {x: -4.96, y: 0.97, z: 19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 101041461}
@@ -5872,6 +6038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1873894409
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,7 +6085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1873894412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6025,7 +6192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1876484976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6130,6 +6297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 396582157}
+  CheckLight: 0
 --- !u!1 &1915181867
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,6 +6342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1917214682
 GameObject:
   m_ObjectHideFlags: 0
@@ -6220,7 +6389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1917214685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6311,6 +6480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 835001442}
+  CheckLight: 0
 --- !u!4 &1923177110
 Transform:
   m_ObjectHideFlags: 0
@@ -6319,7 +6489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923177108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.12, y: 0.17000008, z: -12.49}
+  m_LocalPosition: {x: 1.12, y: 0.31, z: -12.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 387763312}
@@ -6369,6 +6539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1942662484
 GameObject:
   m_ObjectHideFlags: 0
@@ -6415,7 +6586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209462e2355523c488743c50ce1cba1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: 1
+  color: 0
 --- !u!65 &1942662487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6527,8 +6698,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &1949684235
@@ -6575,6 +6745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 762520025}
+  CheckLight: 0
 --- !u!1 &1977741926
 GameObject:
   m_ObjectHideFlags: 0
@@ -6619,6 +6790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &1996196012
 GameObject:
   m_ObjectHideFlags: 0
@@ -6663,6 +6835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &2046165172
 GameObject:
   m_ObjectHideFlags: 0
@@ -6693,6 +6866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 321174522}
+  CheckLight: 0
 --- !u!4 &2046165174
 Transform:
   m_ObjectHideFlags: 0
@@ -6751,6 +6925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &2055379791
 GameObject:
   m_ObjectHideFlags: 0
@@ -6804,8 +6979,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: d857dc8da4a0e2b4088a55b525d92cc8, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &2062251401
@@ -6859,8 +7033,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &2062404598
@@ -6888,7 +7061,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2062404598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.43, y: 0.17000008, z: 14.7}
+  m_LocalPosition: {x: -0.43, y: 0.79, z: 14.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2062251402}
@@ -6907,6 +7080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 793086366}
+  CheckLight: 0
 --- !u!1 &2071710747
 GameObject:
   m_ObjectHideFlags: 0
@@ -6951,6 +7125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 544703964}
+  CheckLight: 0
 --- !u!1 &2077956880
 GameObject:
   m_ObjectHideFlags: 0
@@ -6995,6 +7170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 0}
+  CheckLight: 0
 --- !u!1 &2078345776
 GameObject:
   m_ObjectHideFlags: 0
@@ -7039,6 +7215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 853333064}
+  CheckLight: 0
 --- !u!1 &2107259698
 GameObject:
   m_ObjectHideFlags: 0
@@ -7090,8 +7267,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: 5f62ea725ac15c145bade1597645729b, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &2119231886
@@ -7145,8 +7321,7 @@ MonoBehaviour:
   id: A4
   trafficLight: {fileID: 0}
   maxCars: 3
-  carPrefab: {fileID: 5589885493275028249, guid: 2fec471f7e726ca468ecaa0b920d9491,
-    type: 3}
+  carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
 --- !u!1 &2129858390
@@ -7179,6 +7354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 140050216}
+  CheckLight: 0
 --- !u!4 &2129858392
 Transform:
   m_ObjectHideFlags: 0

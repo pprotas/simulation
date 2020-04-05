@@ -23,7 +23,7 @@ public class TrafficUser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateY();
+        UpdateY ();
 
         if (currentWayPoint)
         {
