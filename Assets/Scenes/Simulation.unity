@@ -527,7 +527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: D1
   TrafficLights: []
-  maxCars: 3
+  maxCars: 4
   carPrefab: {fileID: 100000, guid: 72127dfd2b4ece84fafa67f6eee23e99, type: 3}
   cars: []
   wayPoints: []
@@ -1754,7 +1754,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243941143}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.36, y: 2.5, z: -11.23}
+  m_LocalPosition: {x: 7.55, y: 2.5, z: -11.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1267136147}
@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 0
-  id: FV1
+  id: FV3
 --- !u!65 &243941146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2220,7 +2220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: GF2
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -2572,7 +2572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: B1
   TrafficLights: []
-  maxCars: 3
+  maxCars: 2
   carPrefab: {fileID: 100000, guid: 5a4f86d32435a4c4ca96a487a3a32b8a, type: 3}
   cars: []
   wayPoints: []
@@ -2871,7 +2871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: GF1
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -2924,7 +2924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 0
-  id: FV2
+  id: FV4
 --- !u!65 &432405916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3533,7 +3533,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523676166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.48, y: 0.95, z: -11.937}
+  m_LocalPosition: {x: 5.72, y: 0.95, z: -10.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1982542324}
@@ -3853,7 +3853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: AB2
   TrafficLights: []
-  maxCars: 3
+  maxCars: 1
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -3951,7 +3951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: FF1
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -4007,7 +4007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: D2
   TrafficLights: []
-  maxCars: 3
+  maxCars: 4
   carPrefab: {fileID: 100000, guid: d857dc8da4a0e2b4088a55b525d92cc8, type: 3}
   cars: []
   wayPoints: []
@@ -4408,7 +4408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 0}
+  Next: {fileID: 1739465533}
   CheckLight: 0
   LightIndex: 0
 --- !u!1 &743599637
@@ -4463,7 +4463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: D3
   TrafficLights: []
-  maxCars: 3
+  maxCars: 4
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -4760,7 +4760,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 773645519}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.09, y: 0.95, z: -17.22}
+  m_LocalPosition: {x: 5.84, y: 0.95, z: -17.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1267136147}
@@ -4779,7 +4779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Next: {fileID: 1307793833}
-  CheckLight: 0
+  CheckLight: 1
   LightIndex: 0
 --- !u!1 &784984265
 GameObject:
@@ -4824,7 +4824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 1923177109}
+  Next: {fileID: 1627350730}
   CheckLight: 1
   LightIndex: 0
 --- !u!1 &793086364
@@ -4898,7 +4898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798348053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.405, y: 0.95, z: -15.309}
+  m_LocalPosition: {x: 5.59, y: 0.95, z: -14.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1982542324}
@@ -5500,7 +5500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 0}
+  Next: {fileID: 817204844}
   CheckLight: 0
   LightIndex: 0
 --- !u!1 &925453879
@@ -6249,7 +6249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 0
-  id: FV1
+  id: FV2
 --- !u!65 &1057647402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6906,7 +6906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: FF2
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -7055,7 +7055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: GV2
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -7295,7 +7295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: FV1
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -7951,7 +7951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: GV1
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -8046,7 +8046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 0}
+  Next: {fileID: 1423714466}
   CheckLight: 1
   LightIndex: 0
 --- !u!1 &1408398236
@@ -8146,7 +8146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: AB1
   TrafficLights: []
-  maxCars: 3
+  maxCars: 1
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -8202,7 +8202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: B4
   TrafficLights: []
-  maxCars: 3
+  maxCars: 2
   carPrefab: {fileID: 100000, guid: 72127dfd2b4ece84fafa67f6eee23e99, type: 3}
   cars: []
   wayPoints: []
@@ -8249,7 +8249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 1423714466}
+  Next: {fileID: 2068984448}
   CheckLight: 1
   LightIndex: 1
 --- !u!1 &1426256512
@@ -8663,7 +8663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 1469875107}
+  Next: {fileID: 1859155033}
   CheckLight: 1
   LightIndex: 0
 --- !u!1 &1488961322
@@ -9333,7 +9333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 0}
+  Next: {fileID: 1923177109}
   CheckLight: 0
   LightIndex: 0
 --- !u!4 &1627350731
@@ -9397,7 +9397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 0
-  id: FV2
+  id: FV1
 --- !u!65 &1638991920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9969,7 +9969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 1739465533}
+  Next: {fileID: 439922287}
   CheckLight: 1
   LightIndex: 0
 --- !u!1 &1746856049
@@ -11804,7 +11804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: BB1
   TrafficLights: []
-  maxCars: 3
+  maxCars: 1
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -11897,7 +11897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc7e7e6475174345af063d80e268fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Next: {fileID: 0}
+  Next: {fileID: 1469875107}
   CheckLight: 0
   LightIndex: 0
 --- !u!1 &1964348601
@@ -12042,7 +12042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3715201648a79724998a2fe05f9aa73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: D3
+  id: FV2
   TrafficLights: []
   maxCars: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
@@ -12476,7 +12476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: B2
   TrafficLights: []
-  maxCars: 3
+  maxCars: 2
   carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
@@ -12806,7 +12806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: C2
   TrafficLights: []
-  maxCars: 3
+  maxCars: 5
   carPrefab: {fileID: 100000, guid: 5f62ea725ac15c145bade1597645729b, type: 3}
   cars: []
   wayPoints: []
@@ -12906,7 +12906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: B3
   TrafficLights: []
-  maxCars: 3
+  maxCars: 2
   carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
@@ -13109,7 +13109,7 @@ PrefabInstance:
     - target: {fileID: 6249689030337089691, guid: b8c32dace2a95914d8563a17bb925d43,
         type: 3}
       propertyPath: webSocketUrl
-      value: ws://dc0e4d2b.ngrok.io/
+      value: ws://a687bf6d.ngrok.io/
       objectReference: {fileID: 0}
     - target: {fileID: 6249689030337089692, guid: b8c32dace2a95914d8563a17bb925d43,
         type: 3}
