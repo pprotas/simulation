@@ -16,6 +16,7 @@ class Client : MonoBehaviour
         Listen(WebSocket);
     }
 
+
     private void Listen(WebSocket ws)
     {
         var x = File.ReadAllText(@".\Assets\Resources\Json\init.json");
@@ -47,6 +48,6 @@ class Client : MonoBehaviour
 
     public void Send(State state)
     {
-        WebSocket.Send(JsonUtility.ToJson(state)); // todo Send only the lights
+        WebSocket.Send(state.ToJson()); // todo Send only the lights
     }
 }

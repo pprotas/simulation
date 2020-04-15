@@ -12,11 +12,10 @@ class Lane : MonoBehaviour
     [SerializeField]
     public string id;
 
-    [SerializeField]
-    public Light trafficLight;
+    public List<Light> TrafficLights;
 
     [SerializeField]
-    public int maxCars = 3;
+    public int maxCars = 20;
 
     [SerializeField]
     public GameObject carPrefab;
@@ -31,7 +30,7 @@ class Lane : MonoBehaviour
     {
         get
         {
-            if (cars?.Count > maxCars)
+            if (cars?.Count > maxCars - 1)
             {
                 return true;
             }
@@ -45,7 +44,7 @@ class Lane : MonoBehaviour
     {
         cars = new List<GameObject>();
         wayPoints = new List<WayPoint>(gameObject.GetComponentsInChildren<WayPoint>());
-        trafficLight = trafficLight ?? gameObject.GetComponentInChildren<Light>();
+        TrafficLights = gameObject.GetComponentsInChildren<Light>().ToList();
     }
 
     void Update()
@@ -61,6 +60,7 @@ class Lane : MonoBehaviour
             car.AddComponent<TrafficUser>();
             car.GetComponent<TrafficUser>().lane = gameObject;
             cars.Add(car);
+            transform.parent.GetComponent<State>().IsUpdated = true;
         }
     }
 
@@ -74,7 +74,7 @@ class Lane : MonoBehaviour
         {
             return;
         }
-        if (timeSinceLastCall <= 3)
+        if (timeSinceLastCall <= 5)
         {
             return;
         }

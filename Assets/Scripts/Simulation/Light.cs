@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using WebSocketSharp;
 
 [Serializable]
 class Light : MonoBehaviour
@@ -11,8 +12,14 @@ class Light : MonoBehaviour
     [SerializeField]
     public LightColor color;
 
-    public Light()
-    {
+    [SerializeField]
+    public string id;
 
+    private void Start()
+    {
+        if (id.IsNullOrEmpty())
+        {
+            id = gameObject.GetComponentInParent<Lane>().id;
+        }
     }
 }

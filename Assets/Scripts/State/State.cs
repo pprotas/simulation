@@ -3,11 +3,13 @@ using System.Reflection;
 using System.Linq;
 using UnityEngine;
 using System.Collections.Specialized;
+using Boo.Lang;
 
 internal class State : MonoBehaviour
 {
     [SerializeField]
-    ObservableCollection<Lane> lanes;
+    public ObservableCollection<Lane> lanes;
+    private Light[] Lights;
 
     private bool _isUpdated;
     public bool IsUpdated
@@ -28,6 +30,8 @@ internal class State : MonoBehaviour
     {
         lanes = new ObservableCollection<Lane>(gameObject.GetComponentsInChildren<Lane>());
         lanes.CollectionChanged += Lanes_Changed;
+
+        Lights = gameObject.GetComponentsInChildren<Light>();
     }
 
     void Update()
@@ -62,16 +66,42 @@ internal class State : MonoBehaviour
         return null;
     }
 
+    Light GetLightById(string id)
+    {
+        Light result;
+
+        if (!string.IsNullOrEmpty(id))
+        {
+            result = Lights.SingleOrDefault(light => light.id == id);
+        }
+        else
+        {
+            print($"Empty id for light specified");
+            return null;
+        }
+
+        if (result)
+        {
+            return result;
+        }
+        print($"No light found with the id of {id}");
+        return null;
+    }
+
     private void SetLightForId(string laneId, LightColor color)
     {
-        GetLaneById(laneId).trafficLight.color = color;
+        Light lane = GetLightById(laneId);
+        if (lane != null)
+        {
+            lane.color = color;
+        }
     }
 
     public void SetAllLights(LightColor color)
     {
-        foreach(Lane lane in lanes)
+        foreach (Light light in Lights)
         {
-            lane.trafficLight.color = color;
+            light.color = color;
         }
     }
 
@@ -84,7 +114,6 @@ internal class State : MonoBehaviour
         {
             LightColor color = GetLightColor(data, field);
             string id = field.Name;
-            GetLaneById(id).trafficLight.color = color;
             SetLightForId(id, color);
         }
     }
@@ -97,5 +126,17 @@ internal class State : MonoBehaviour
     private void SpawnCarAtRandom()
     {
         lanes[Random.Range(lanes.IndexOf(lanes.First()), lanes.Count)].TrySpawnCar();
+    }
+
+    public string ToJson()
+    {
+        string result = "{\n";
+        foreach(Lane lane in lanes)
+        {
+            result += $"\"{lane.id}\": {lane.cars.Count},\n";
+        }
+        result = result.Substring(0, result.Length - 2);
+        result += "\n}";
+        return result;
     }
 }

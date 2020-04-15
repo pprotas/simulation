@@ -14,6 +14,9 @@ public class WayPoint : MonoBehaviour
     [SerializeField]
     public bool CheckLight = false;
 
+    [SerializeField]
+    public int LightIndex = 0;
+
     void Start()
     {
         

@@ -15,7 +15,7 @@ public class TrafficUser : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 7.0f;
+        speed = 10.0f;
         currentWayPoint = lane.GetComponent<Lane>().wayPoints.FirstOrDefault();
         transform.position = currentWayPoint.transform.position;
     }
@@ -74,7 +74,7 @@ public class TrafficUser : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, currentWayPoint.transform.position) < 2)
         {
-            if (currentWayPoint.CheckLight == true && lane.GetComponent<Lane>().trafficLight.color == LightColor.Red)
+            if (currentWayPoint.CheckLight == true && lane.GetComponent<Lane>().TrafficLights[currentWayPoint.LightIndex].color == LightColor.Red)
             {
                 return true;
             }

@@ -25,7 +25,6 @@ class ControllerData
     public int D2;
     public int D3;
     public int E1;
-    public int E2;
     public int EV1;
     public int EV2;
     public int EV3;
