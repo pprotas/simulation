@@ -5,10 +5,13 @@ using UnityEngine;
 using System.Collections.Specialized;
 using Boo.Lang;
 
+/// <summary>
+/// Class representing the total state of all traffic lights in the simulation
+/// </summary>
 internal class State : MonoBehaviour
 {
     [SerializeField]
-    public ObservableCollection<Lane> lanes;
+    public List<Lane> lanes;
     private Light[] Lights;
 
     private bool _isUpdated;
@@ -17,7 +20,9 @@ internal class State : MonoBehaviour
         get
         {
             var tmp = _isUpdated;
-            _isUpdated = false; // State is not updated anymore if someone accesses this property
+            // State is not updated anymore if someone accesses this property
+            // ("can only be read once" mechanism)
+            _isUpdated = false;
             return tmp;
         }
         set
@@ -28,20 +33,13 @@ internal class State : MonoBehaviour
 
     void Start()
     {
-        lanes = new ObservableCollection<Lane>(gameObject.GetComponentsInChildren<Lane>());
-        lanes.CollectionChanged += Lanes_Changed;
-
+        lanes = new List<Lane>(gameObject.GetComponentsInChildren<Lane>());
         Lights = gameObject.GetComponentsInChildren<Light>();
     }
 
     void Update()
     {
         SpawnCarAtRandom();
-    }
-
-    private void Lanes_Changed(object sender, NotifyCollectionChangedEventArgs e)
-    {
-        IsUpdated = true;
     }
 
     Lane GetLaneById(string id)
@@ -128,6 +126,7 @@ internal class State : MonoBehaviour
         lanes[Random.Range(lanes.IndexOf(lanes.First()), lanes.Count)].TrySpawnCar();
     }
 
+    // Returns a JSON formatted string that represents the state, according to protocol.
     public string ToJson()
     {
         string result = "{\n";

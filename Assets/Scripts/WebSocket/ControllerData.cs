@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// Class representing a state that is sent from a controller, according to protocol
+/// </summary>
 class ControllerData
 {
     public int A1;

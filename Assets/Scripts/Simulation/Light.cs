@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using UnityEngine;
 using WebSocketSharp;
 
+/// <summary>
+/// Class representing a light in the simulation
+/// </summary>
 [Serializable]
 class Light : MonoBehaviour
 {

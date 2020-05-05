@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// Class representing a lane in the simulation
+/// </summary>
 [Serializable]
 class Lane : MonoBehaviour
 {
+    // The ID is equal to the agreed upon lane id.
     [SerializeField]
     public string id;
 
@@ -23,9 +27,11 @@ class Lane : MonoBehaviour
     [SerializeField]
     public List<GameObject> cars;
 
+    // A list of waitpoints that represent the route a car has to follow
     [SerializeField]
     public List<WayPoint> wayPoints;
 
+    // Busy lanes don't spawn cars
     private bool IsBusy
     {
         get
@@ -38,6 +44,7 @@ class Lane : MonoBehaviour
         }
     }
 
+    // Used for spawning cars. Prevents cars from being spawned too often
     float timeSinceLastCall;
 
     void Start()
@@ -52,6 +59,7 @@ class Lane : MonoBehaviour
         timeSinceLastCall += Time.deltaTime;
     }
 
+    // Forces the simulation to spawn a car at the specified location
     private void SpawnCar(GameObject carPrefab, Vector3 cd)
     {
         GameObject car = Instantiate(carPrefab, cd, new Quaternion());
@@ -64,6 +72,7 @@ class Lane : MonoBehaviour
         }
     }
 
+    // Spawns a car only if specific conditions are met 
     public void TrySpawnCar()
     {
         if (IsBusy)
@@ -80,11 +89,6 @@ class Lane : MonoBehaviour
         }
         timeSinceLastCall = 0;
         SpawnCar(carPrefab, wayPoints[0].transform.position);
-    }
-
-    private void DespawnCar(GameObject car)
-    {
-        cars.Remove(car);
     }
 
     public override string ToString()

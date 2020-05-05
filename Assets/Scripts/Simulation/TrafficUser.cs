@@ -23,24 +23,26 @@ public class TrafficUser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateY ();
+        UpdateY();
 
+        // Follows the route of waitpoints
         if (currentWayPoint)
         {
             MoveTowardsWayPoint();
         }
-        if (PassedWayPoint())
+        if (PassedWayPoint)
         {
             SetWayPointToNext();
         }
+        // Despawns if it meets specific conditions
         CheckEnd();
     }
 
+    // Used for keeping the cars on the ground
     private void UpdateY()
     {
-        RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 0.2f))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out _, 0.2f))
         {
             transform.position = new Vector3(transform.position.x, transform.position.y + 0.01f, transform.position.z);
         }
@@ -80,22 +82,24 @@ public class TrafficUser : MonoBehaviour
             }
         }
 
-        RaycastHit hit;
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit, 2.0f))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out _, 2.0f))
         {
             return true;
         }
         return false;
     }
 
-    private bool PassedWayPoint()
+    private bool PassedWayPoint
     {
-        if (Vector3.Distance(transform.position, currentWayPoint.transform.position) < 0.2)
+        get
         {
-            return true;
+            if (Vector3.Distance(transform.position, currentWayPoint.transform.position) < 0.2)
+            {
+                return true;
+            }
+            return false;
         }
-        return false;
     }
 
     private void SetWayPointToNext()
@@ -105,7 +109,7 @@ public class TrafficUser : MonoBehaviour
 
     private void CheckEnd()
     {
-        if (currentWayPoint.name == "End") // todo Make this work with tags?
+        if (currentWayPoint.name == "End")
         {
             Despawn();
         }
