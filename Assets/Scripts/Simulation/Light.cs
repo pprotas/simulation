@@ -18,11 +18,14 @@ class Light : MonoBehaviour
     [SerializeField]
     public string id;
 
+    public Lane lane;
+
     private void Start()
     {
         if (id.IsNullOrEmpty())
         {
             id = gameObject.GetComponentInParent<Lane>().id;
         }
+        lane = gameObject.GetComponentInParent<Lane>();
     }
 }

@@ -22,6 +22,9 @@ class Lane : MonoBehaviour
     public int maxCars = 20;
 
     [SerializeField]
+    public int spawnDelay = 5;
+
+    [SerializeField]
     public GameObject carPrefab;
 
     [SerializeField]
@@ -83,7 +86,7 @@ class Lane : MonoBehaviour
         {
             return;
         }
-        if (timeSinceLastCall <= 5)
+        if (timeSinceLastCall <= spawnDelay)
         {
             return;
         }

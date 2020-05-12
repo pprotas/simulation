@@ -129,13 +129,13 @@ internal class State : MonoBehaviour
     // Returns a JSON formatted string that represents the state, according to protocol.
     public string ToJson()
     {
-        string result = "{\n";
-        foreach(Lane lane in lanes)
+        string result = "{";
+        foreach(Light light in Lights)
         {
-            result += $"\"{lane.id}\": {lane.cars.Count},\n";
+            result += $"\"{light.id}\": {light.lane.cars.Count},";
         }
-        result = result.Substring(0, result.Length - 2);
-        result += "\n}";
+        result = result.Substring(0, result.Length - 1);
+        result += "}";
         return result;
     }
 }

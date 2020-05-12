@@ -58,6 +58,7 @@ class Client : MonoBehaviour
 
     public void Send(State state)
     {
-        WebSocket.Send(state.ToJson());
+        var x = state.ToJson();
+        WebSocket.Send(x);
     }
 }
