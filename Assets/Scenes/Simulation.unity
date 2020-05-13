@@ -3874,7 +3874,7 @@ MonoBehaviour:
   id: AB2
   TrafficLights: []
   maxCars: 1
-  spawnDelay: 30
+  spawnDelay: 60
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -6184,7 +6184,7 @@ MonoBehaviour:
   id: EV1
   TrafficLights: []
   maxCars: 1
-  spawnDelay: 30
+  spawnDelay: 5
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -8188,7 +8188,7 @@ MonoBehaviour:
   id: AB1
   TrafficLights: []
   maxCars: 1
-  spawnDelay: 30
+  spawnDelay: 60
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -11863,7 +11863,7 @@ MonoBehaviour:
   id: BB1
   TrafficLights: []
   maxCars: 1
-  spawnDelay: 5
+  spawnDelay: 60
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
