@@ -25,6 +25,9 @@ class Lane : MonoBehaviour
     public int spawnDelay = 5;
 
     [SerializeField]
+    public bool HasCollision = true;
+
+    [SerializeField]
     public GameObject carPrefab;
 
     [SerializeField]
@@ -70,6 +73,7 @@ class Lane : MonoBehaviour
         {
             car.AddComponent<TrafficUser>();
             car.GetComponent<TrafficUser>().lane = gameObject;
+            car.GetComponent<TrafficUser>().HasCollision = HasCollision;
             cars.Add(car);
             transform.parent.GetComponent<State>().IsUpdated = true;
         }

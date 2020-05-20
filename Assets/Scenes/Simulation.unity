@@ -531,6 +531,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 4
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 72127dfd2b4ece84fafa67f6eee23e99, type: 3}
   cars: []
   wayPoints: []
@@ -586,6 +587,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 3
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: d857dc8da4a0e2b4088a55b525d92cc8, type: 3}
   cars: []
   wayPoints: []
@@ -1216,6 +1218,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 3
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
@@ -1273,6 +1276,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -2236,6 +2240,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -2588,6 +2593,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 2
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 5a4f86d32435a4c4ca96a487a3a32b8a, type: 3}
   cars: []
   wayPoints: []
@@ -2891,6 +2897,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -3875,6 +3882,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 60
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -3976,6 +3984,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -4031,6 +4040,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 4
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: d857dc8da4a0e2b4088a55b525d92cc8, type: 3}
   cars: []
   wayPoints: []
@@ -4341,6 +4351,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -4490,6 +4501,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 4
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -5862,6 +5874,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 3
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 80492071631ffe442bdaacf7b2e4a9f3, type: 3}
   cars: []
   wayPoints: []
@@ -6185,6 +6198,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -6944,6 +6958,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -7094,6 +7109,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -7335,6 +7351,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -7920,7 +7937,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347758495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.75, y: 0.89, z: -9.55}
+  m_LocalPosition: {x: 2.29, y: 0.89, z: -9.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1048299004}
@@ -7995,6 +8012,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -8189,6 +8207,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 60
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -8246,6 +8265,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 2
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 72127dfd2b4ece84fafa67f6eee23e99, type: 3}
   cars: []
   wayPoints: []
@@ -8274,7 +8294,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423714464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.46, y: 1.47, z: 0.33}
+  m_LocalPosition: {x: 7.25, y: 1.47, z: 0.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1227134650}
@@ -8763,6 +8783,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 72127dfd2b4ece84fafa67f6eee23e99, type: 3}
   cars: []
   wayPoints: []
@@ -8818,6 +8839,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 3
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -9283,7 +9305,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597792421}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.33, y: 0.95, z: -12.02}
+  m_LocalPosition: {x: 6.47, y: 0.95, z: -13.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1267136147}
@@ -10540,6 +10562,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 3
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 5a4f86d32435a4c4ca96a487a3a32b8a, type: 3}
   cars: []
   wayPoints: []
@@ -11864,6 +11887,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 60
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 1f4b6eadf05eea64ea2e9067f729c906, type: 3}
   cars: []
   wayPoints: []
@@ -12105,6 +12129,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 1
   spawnDelay: 5
+  HasCollision: 0
   carPrefab: {fileID: 100000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
   cars: []
   wayPoints: []
@@ -12179,7 +12204,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002663384}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.48, y: 1.47, z: 0.92}
+  m_LocalPosition: {x: 5.64, y: 1.47, z: 0.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1365070515}
@@ -12438,6 +12463,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 3
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: d857dc8da4a0e2b4088a55b525d92cc8, type: 3}
   cars: []
   wayPoints: []
@@ -12539,6 +12565,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 2
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
@@ -12870,6 +12897,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 5
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: 5f62ea725ac15c145bade1597645729b, type: 3}
   cars: []
   wayPoints: []
@@ -12898,7 +12926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111685141}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.386, y: 0.89, z: -9.151}
+  m_LocalPosition: {x: 3.72, y: 0.89, z: -9.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 724504289}
@@ -12971,6 +12999,7 @@ MonoBehaviour:
   TrafficLights: []
   maxCars: 2
   spawnDelay: 5
+  HasCollision: 1
   carPrefab: {fileID: 100000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}
   cars: []
   wayPoints: []
@@ -13173,7 +13202,7 @@ PrefabInstance:
     - target: {fileID: 6249689030337089691, guid: b8c32dace2a95914d8563a17bb925d43,
         type: 3}
       propertyPath: webSocketUrl
-      value: ws://4aa68a63.ngrok.io
+      value: ws://9fd891de.ngrok.io/
       objectReference: {fileID: 0}
     - target: {fileID: 6249689030337089692, guid: b8c32dace2a95914d8563a17bb925d43,
         type: 3}

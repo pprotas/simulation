@@ -8,6 +8,9 @@ public class TrafficUser : MonoBehaviour
     [SerializeField]
     public GameObject lane;
 
+    [SerializeField]
+    public bool HasCollision;
+
     public WayPoint currentWayPoint;
 
     public float speed;
@@ -83,7 +86,7 @@ public class TrafficUser : MonoBehaviour
         }
 
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out _, 2.0f))
+        if (HasCollision && Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out _, 2.0f))
         {
             return true;
         }
