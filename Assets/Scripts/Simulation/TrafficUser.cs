@@ -19,8 +19,11 @@ public class TrafficUser : MonoBehaviour
     void Start()
     {
         speed = 10.0f;
-        currentWayPoint = lane.GetComponent<Lane>().wayPoints.FirstOrDefault();
-        transform.position = currentWayPoint.transform.position;
+        if (lane != null)
+        {
+            currentWayPoint = lane.GetComponent<Lane>().wayPoints.FirstOrDefault();
+            transform.position = currentWayPoint.transform.position;
+        }
     }
 
     // Update is called once per frame
@@ -97,7 +100,7 @@ public class TrafficUser : MonoBehaviour
     {
         get
         {
-            if (Vector3.Distance(transform.position, currentWayPoint.transform.position) < 0.2)
+            if (currentWayPoint != null && Vector3.Distance(transform.position, currentWayPoint.transform.position) < 0.2)
             {
                 return true;
             }
@@ -112,7 +115,7 @@ public class TrafficUser : MonoBehaviour
 
     private void CheckEnd()
     {
-        if (currentWayPoint.name == "End")
+        if (currentWayPoint != null && currentWayPoint.name == "End")
         {
             Despawn();
         }
