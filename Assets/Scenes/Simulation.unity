@@ -8073,7 +8073,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383288712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.42, y: 0.17000008, z: -44.14}
+  m_LocalPosition: {x: 3.45, y: 0.17000008, z: -44.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1949526908}
@@ -8326,7 +8326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423714464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.25, y: 1.47, z: 0.22}
+  m_LocalPosition: {x: 7.25, y: 1.55, z: 0.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1227134650}
@@ -10060,7 +10060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739465531}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.34, y: 1.47, z: -0.83}
+  m_LocalPosition: {x: 1.34, y: 1.613, z: -0.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 428102720}
@@ -12940,7 +12940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: C2
   TrafficLights: []
-  maxCars: 5
+  maxCars: 3
   spawnDelay: 5
   HasCollision: 1
   carPrefab: {fileID: 100000, guid: 5f62ea725ac15c145bade1597645729b, type: 3}
@@ -13247,7 +13247,7 @@ PrefabInstance:
     - target: {fileID: 6249689030337089691, guid: b8c32dace2a95914d8563a17bb925d43,
         type: 3}
       propertyPath: webSocketUrl
-      value: 
+      value: ws://89e2e8d8.ngrok.io/
       objectReference: {fileID: 0}
     - target: {fileID: 6249689030337089692, guid: b8c32dace2a95914d8563a17bb925d43,
         type: 3}

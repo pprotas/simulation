@@ -50,11 +50,15 @@ public class TrafficUser : MonoBehaviour
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out _, 0.2f))
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y + 0.01f, transform.position.z);
+            //transform.position = new Vector3(transform.position.x, transform.position.y + 0.01f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y + 0.03f, transform.position.z);
+
         }
         else
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y - 0.05f, transform.position.z);
+            //transform.position = new Vector3(transform.position.x, transform.position.y - 0.05f, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y - 0.03f, transform.position.z);
+
         }
     }
 
